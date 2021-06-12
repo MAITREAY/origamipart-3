@@ -1,0 +1,67 @@
+h1,h2,h3 {
+   justify-content: center;
+   color: black;
+}
+
+.bodyimg h3{
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.bodyimg h2{
+   padding-left: 37%;
+   padding-right: 37%;
+   }
+   
+
+.site-description{
+   display: flex; 
+   flex-direction: column; 
+   justify-content: first baseline; 
+} 
+
+
+.grid{ 
+   display: flex; 
+   flex-wrap: wrap ;
+   justify-content: space-evenly;
+
+} 
+
+.grid img{
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 50px;
+}
+
+.origami{
+
+   border-radius: 20px;
+   background-color: white;
+
+   width: 310px;
+   font-family: fantasy;
+}
+
+body{
+   background-color:rgb(255, 242, 242) ;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 235, 235);
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+} 
+
+a:link{
+    color: #ffffff; 
+} 
+
+a:visited{
+    color: #ffffff; 
+}
